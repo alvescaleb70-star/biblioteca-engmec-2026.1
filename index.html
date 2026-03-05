@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Biblioteca Engenharia Mecânica</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+/* MENU */
+.menu {
+    background-color: #222;
+    padding: 15px;
+    text-align: center;
+}
+
+.menu a {
+    color: white;
+    margin: 0 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    color: #00bfff;
+}
+
+/* SEÇÕES */
+.section {
+    padding: 40px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.livro {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.livro img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.livro h3 {
+    font-size: 16px;
+}
+
+.livro a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 15px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.livro a:hover {
+    background-color: #0056b3;
+}
+</style>
+</head>
+
+<body>
+
+<div class="menu">
+    <a href="#calculo">Cálculo</a>
+    <a href="#fisica">Física</a>
+    <a href="#quimica">Química</a>
+    <a href="#mecanica">Mecânica</a>
+</div>
+
+<!-- CÁLCULO -->
+<div class="section" id="calculo">
+    <h2>📐 Cálculo</h2>
+    <div class="container">
+
+        <div class="livro">
+            <img src="LINK_DA_IMAGEM_AQUI">
+            <h3>Nome do Livro</h3>
+            <a href="LINK_DO_DRIVE_AQUI" target="_blank">Acessar</a>
+        </div>
+
+    </div>
+</div>
+
+<!-- FÍSICA -->
+<div class="section" id="fisica">
+    <h2>⚙️ Física</h2>
+    <div class="container">
+
+        <!-- Cole aqui os livros de Física -->
+
+    </div>
+</div>
+
+<!-- QUÍMICA -->
+<div class="section" id="quimica">
+    <h2>🧪 Química</h2>
+    <div class="container">
+
+        <!-- Cole aqui os livros de Química -->
+
+    </div>
+</div>
+
+<!-- MECÂNICA -->
+<div class="section" id="mecanica">
+    <h2>🔧 Mecânica</h2>
+    <div class="container">
+
+        <!-- Cole aqui os livros de Mecânica -->
+
+    </div>
+</div>
+
+</body>
+</html>
